@@ -5,6 +5,7 @@ import DarkThemeToggle from './components/DarkThemeToggle';
 import About from './components/About'
 import Projects from './components/Projects'
 import Connect from './components/Connect'
+import WorkExperience from './components/WorkExperience';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       </div>
 
     <About />
+    <WorkExperience />
     <Projects />
     <Connect />
 
