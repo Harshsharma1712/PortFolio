@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 
 const Connect: FC = () => {
