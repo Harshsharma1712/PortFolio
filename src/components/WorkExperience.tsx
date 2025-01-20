@@ -12,38 +12,25 @@ interface Job {
 
 const jobs: Job[] = [
   {
-    title: "Senior Frontend Developer",
-    company: "Tech Innovators Inc.",
-    period: "Jan 2022 - Present",
+    title: "Frontend Developer",
+    company: "Cognifiyz",
+    period: "Dec 2024 - Jan 2025",
     description: [
-      "Led the development of a high-traffic e-commerce platform, improving load times by 40%",
-      "Mentored junior developers and conducted code reviews to ensure high code quality",
-      "Implemented new React features and optimized existing components for better performance"
+      "Increased mobile user engagement by 15% through development and maintenance of responsive web pages using HTML5 and JavaScript, ensuring a seamless cross-platform design (desktop, tablet, and mobile).",
+      "Utilized version control systems (like Git) to effectively manage code changes and maintain project history, resulting in a 10% reduction in code review time for fellow developers."
     ],
-    skills: ["React", "TypeScript", "Next.js", "Redux", "GraphQL"]
+    skills: ["HTML/CSS", "TypeScript/JavaScript", "React", "Git"]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Solutions Ltd.",
-    period: "Mar 2019 - Dec 2021",
+    title: "AI Trainer",
+    company: "Soul AI",
+    period: "Jan 2025 - Present",
     description: [
-      "Developed and maintained multiple client websites using React and Node.js",
-      "Designed and implemented RESTful APIs for various web applications",
-      "Collaborated with UX designers to implement responsive and accessible user interfaces"
+      "Enhanced the natural language processing capabilities of AI models, improving their contextual understanding and response accuracy by 20%.",
+      "Developed and implemented training programs for AI models, achieving an average accuracy improvement of 90%.",
     ],
-    skills: ["React", "Node.js", "Express", "MongoDB", "REST API"]
+    skills: ["Python", "Prompt technique"]
   },
-  {
-    title: "Junior Web Developer",
-    company: "WebCraft Agency",
-    period: "Jun 2017 - Feb 2019",
-    description: [
-      "Assisted in the development of client websites using HTML, CSS, and JavaScript",
-      "Learned and applied modern web development practices and frameworks",
-      "Participated in daily stand-ups and sprint planning meetings"
-    ],
-    skills: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
-  }
 ]
 
 const WorkExperience: React.FC = () => {

@@ -15,9 +15,12 @@ const DarkThemeToggle: React.FC = () => {
 
   return (
     <>
-      <Button onClick={toggleTheme} variant="outline">
-      {theme === 'dark' ? <SunMoon /> : <Moon />}
-    </Button>
+      <div className='fixed'>
+        <Button onClick={toggleTheme} variant="outline">
+          {theme === 'dark' ? <SunMoon /> : <Moon />}
+        </Button>
+      </div>
+     
     </>
 
    
