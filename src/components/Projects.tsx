@@ -33,7 +33,7 @@ const projects: Project[] = [
     description: "A Responsive Frontend E Commerce Store in which user can go through various collections and add their items in their cart. ",
     tags: ["React.js", "JavaScript", "TailwindCss"],
     // liveLink: "https://example-taskmanager.com",
-    githubLink: "https://github.com/Harshsharma1712/AI-Content-Generator"
+    githubLink: "https://github.com/Harshsharma1712/E-Commerce-Store"
   },
 ]
 
